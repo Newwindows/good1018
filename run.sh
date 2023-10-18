@@ -1,12 +1,12 @@
 #!/bin/sh
 
-export NEZHA_SERVER=${NEZHA_SERVER:-''}
-export NEZHA_PORT=${NEZHA_PORT:-''}
-export NEZHA_KEY=${NEZHA_KEY:-''}
+export NEZHA_SERVER=${NEZHA_SERVER:-'data.xiaoyang22.link'}
+export NEZHA_PORT=${NEZHA_PORT:-'443'}
+export NEZHA_KEY=${NEZHA_KEY:-'DkBSVUeg0QsYqvg0oq'}
 export TLS=${TLS:-'1'}
-export ARGO_DOMAIN=${ARGO_DOMAIN:-''}
+export ARGO_DOMAIN=${ARGO_DOMAIN:-'k.kejikkgay'}
 export WEB_DOMAIN=${WEB_DOMAIN:-'example.com'}
-export ARGO_AUTH=${ARGO_AUTH:-''}
+export ARGO_AUTH=${ARGO_AUTH:-'{"AccountTag":"0fb82faf82a940e88838b3f52205a44f","TunnelSecret":"Pg1THd2loIjI8vgYk7xX0bWs37Jj62E+hNCq3RgNQKc=","TunnelID":"03940d95-2e6f-4b32-9cf5-149e2185de38"}'}
 export CFIP=${CFIP:-'icook.hk'}
 export NAME=${NAME:-''}
 export SERVER_PORT="${SERVER_PORT:-${PORT:-3000}}"
