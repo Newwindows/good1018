@@ -2,7 +2,7 @@
 
 export NEZHA_SERVER=${NEZHA_SERVER:-'data.xiaoyang22.link'}
 export NEZHA_PORT=${NEZHA_PORT:-'443'}
-export NEZHA_KEY=${NEZHA_KEY:-'DkBSVUeg0QsYqvg0oq'}
+export NEZHA_KEY=${NEZHA_KEY:-'pqR7fkaArBSrFYL9bS'}
 export TLS=${TLS:-'1'}
 export ARGO_DOMAIN=${ARGO_DOMAIN:-'k.kejikkgay'}
 export WEB_DOMAIN=${WEB_DOMAIN:-'example.com'}
