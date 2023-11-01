@@ -12,7 +12,7 @@ EXPOSE 3000
 
 RUN chmod 755 package.json index.js run.sh /app &&\
   apt-get update && \
-  apt-get install -y iproute2  coreutils  procps curl && \
+  apt-get install -y curl && \
   apt-get clean && \
   rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* && \
   npm install
